@@ -198,7 +198,7 @@ first div in the grid  and place it in the grid. */
   align-content: center;
   text-align: center;
   max-height: 250px;
-  overflow: visible;
+  overflow: scroll;
 }
 
 /* Add your media query here */
