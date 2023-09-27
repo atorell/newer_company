@@ -1,1 +1,1 @@
-# newer_company
+# Responsive Grid

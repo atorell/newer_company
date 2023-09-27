@@ -145,7 +145,7 @@ first div in the grid  and place it in the grid. */
 .container > :first-child{
   grid-column: 1/-1;
   min-height: 500px;
-  background-image: url('header.jpg');
+  background-image: url('../images/header.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -194,6 +194,7 @@ first div in the grid  and place it in the grid. */
  /* Step 8: Write the selector/rule property to style the .text-block class. */
 .text-block{
   display: flex;
+  /*align-self: ;*/
   justify-content: center;
   align-content: center;
   text-align: center;
@@ -204,10 +205,8 @@ first div in the grid  and place it in the grid. */
 /* Add your media query here */
 @media screen and (min-width: 800px){
   nav{
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 30px 0;
+    text-align: right;
+    padding-top: 30px;
   }
   .container {
     display: grid;
